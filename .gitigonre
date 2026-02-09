@@ -1,5 +1,12 @@
+// NOTE: This file is currently misspelled as ".gitigonre". Rename it:
+//   git mv .gitigonre .gitignore
+// After renaming, commit the rename and follow the cleanup steps in the instructions above.
+
 # Dependencies
 node_modules/
+# Ignore node_modules nested bun binaries explicitly (optional)
+node_modules/**/bun.exe
+node_modules/**/bun-*.exe
 
 # Logs
 npm-debug.log*
@@ -26,3 +33,6 @@ Thumbs.db
 # Editor settings
 .vscode/
 .idea/
+
+# Git LFS pointer files (if you use LFS)
+*.gitattributes
