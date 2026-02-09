@@ -1,4 +1,4 @@
-# Node modules
+# Dependencies
 node_modules/
 
 # Logs
@@ -14,7 +14,15 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
+# Build output
+.next/
+dist/
+build/
+
 # OS files
 .DS_Store
 Thumbs.db
-node_modules/
+
+# Editor settings
+.vscode/
+.idea/
