@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UECampus mark">
+  <defs>
+    <linearGradient id="symbolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B2EE8"/>
+      <stop offset="100%" stop-color="#8C4CFF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="42" cy="40" r="28" fill="none" stroke="url(#symbolGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M28 20h14c14 0 14 12 14 20s0 20-14 20H28" fill="none" stroke="url(#symbolGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 20h18c10 0 18 8 18 18s-8 18-18 18H58" fill="none" stroke="url(#symbolGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,14 @@
+HTTP/1.1 400 Bad Request
+keep-alive: timeout=5, max=100
+x-powered-by: PHP/8.1.33
+access-control-allow-origin: https://studyportal.uecampus.com
+access-control-allow-credentials: true
+access-control-allow-headers: Authorization, Content-Type, Accept, X-Requested-With
+access-control-allow-methods: GET, POST, PATCH, PUT, DELETE, OPTIONS
+access-control-max-age: 86400
+content-type: application/json
+content-length: 25
+date: Sat, 27 Dec 2025 07:31:05 GMT
+server: LiteSpeed
+x-turbo-charged-by: LiteSpeed
+

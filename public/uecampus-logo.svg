@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280" height="80" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UECampus logo">
+  <defs>
+    <linearGradient id="ueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B2EE8"/>
+      <stop offset="100%" stop-color="#8C4CFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#ueGradient)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 58c0-18 0-40 0-40s0-6 5-6h4" />
+    <path d="M34 12c12 0 24 7.5 24 30s-12 30-24 30h-4" />
+    <path d="M58 40h24" />
+    <path d="M58 52h24" />
+    <path d="M58 28h24" />
+    <path d="M84 40a20 20 0 1 1 0 0" fill="none" />
+  </g>
+  <text x="116" y="52" font-family="Inter, 'Segoe UI', sans-serif" font-size="36" font-weight="700" fill="#5B2EE8">
+    CAMPUS
+  </text>
+</svg>

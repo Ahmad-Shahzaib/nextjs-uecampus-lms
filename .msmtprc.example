@@ -1,0 +1,19 @@
+# Example msmtp configuration for UECampus SMTP account.
+# Copy to ~/.msmtprc (Linux/Mac) or C:\msmtp\msmtprc and `chmod 600` the file.
+
+defaults
+tls on
+tls_starttls off
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+auth on
+
+account uecampus
+host uecampus.com
+port 465
+user noreply@uecampus.com
+password noreplyuecampus
+from noreply@uecampus.com
+
+logfile ~/.msmtp.log
+
+account default : uecampus
