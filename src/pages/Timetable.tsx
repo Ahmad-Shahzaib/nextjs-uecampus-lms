@@ -91,7 +91,7 @@ export default function Timetable() {
     if (!user) return;
 
     try {
-      // Ensure we have courses loaded for mapping and normalize whatever the API returned
+      // Ensure we have courses loaded for mapping and normalize  the API returned
       let courseList: any[] = Array.isArray(courses) ? courses : [];
 
       if (!courseList.length) {

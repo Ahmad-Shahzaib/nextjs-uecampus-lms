@@ -34,3 +34,7 @@ node_modules/
 *.iml
 *.suo
 
+
+
+dist
+/dist
