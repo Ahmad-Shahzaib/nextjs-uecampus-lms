@@ -1,38 +1,36 @@
-// NOTE: This file is currently misspelled as ".gitigonre". Rename it:
-//   git mv .gitigonre .gitignore
-// After renaming, commit the rename and follow the cleanup steps in the instructions above.
-
-# Dependencies
-#node_modules/
-# Ignore node_modules nested bun binaries explicitly (optional)
-#node_modules/**/bun.exe
-#node_modules/**/bun-*.exe
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Environment variables
-#.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Build output
-.next/
+node_modules/
 dist/
 build/
-
-# OS files
+.env
 .DS_Store
-Thumbs.db
-
-# Editor settings
+*.log
+coverage/
 .vscode/
 .idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# Git LFS pointer files (if you use LFS)
-*.gitattributes
+# Ignore Mac system files
+.DS_Store
+# Ignore Windows system files
+Thumbs.db
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+# Ignore build output directories
+dist/
+build/
+# Ignore node modules
+node_modules/
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.suo
+
+        
