@@ -13,7 +13,8 @@ coverage/
 *.njsproj
 *.sln
 *.sw?
-
+/node_modules
+node_modules
 # Ignore Mac system files
 .DS_Store
 # Ignore Windows system files
@@ -33,4 +34,3 @@ node_modules/
 *.iml
 *.suo
 
-        

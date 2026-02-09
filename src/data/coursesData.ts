@@ -6,6 +6,7 @@ export interface Course {
   category: string;
   description: string;
   duration: string;
+  
 }
 
 export const allCoursesData: Course[] = [];
