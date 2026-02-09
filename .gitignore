@@ -7,3 +7,17 @@ coverage
 .idea/
 .vscode/
 .DS_Store
+# Ignore the .env file which may contain sensitive information  
+.env
+# Ignore log files which may contain sensitive information or are not necessary to track    
+*.log
+# Ignore build and distribution directories which are generated and not necessary to track
+dist/
+build/
+# Ignore coverage reports which are generated and not necessary to track
+coverage/
+# Ignore IDE specific files and directories which are not necessary to track
+.idea/
+.vscode/
+# Ignore macOS specific files which are not necessary to track
+.DS_Store
